@@ -14,7 +14,7 @@ function App() {
     const address = formData.get('address') as `0x${string}`
     const amount = formData.get('amount') as string
         writeContract({
-      address: '0x24a3F04F70B7f07B9673EadD3e146391BcfEa5c1',
+      address: '0x0a552eD9d121783FBbB291299Fd09663Ee02AeE9',
       abi,
       functionName: 'transfer',
       args: [address,BigInt(amount)],
